@@ -126,7 +126,6 @@ button.page__task-delete img {
   button.page__task-delete img:hover {
     transform: rotateZ(0);
 }
-
 /* Completed */
   .list#complete-task2 label {
     text-decoration: line-through;
