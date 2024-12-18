@@ -15,33 +15,33 @@
   </header>
   <main>
     <section class="page__content">
-      <p id="content-row">
+      <p id="page-row" class="page__row">
         <label for="new-task">Add Item</label>
-          <div class="task-row-wrapper">
+        <div class="page__row-wrapper">
           <input id="new-task"class="page__task-input" type="text">
-          <button>Add</button>
+          <button class="page__task-edd">Add</button>
         </div>
       </p>
       <h3 class="page__content-title">Todo</h3>
-      <ul id="complete-task1">
-        <li>
-        <input type="checkbox">
-        <label class="page__task-label">Pay Bills</label>
-        <input type="text" class="task">
-        <button class="page__task-edit">Edit</button>
-        <button class="page__task-delete"><img src="./remove.svg"></button>
+      <ul class="list" id="complete-task1">
+        <li class="list__item">
+          <input type="checkbox">
+          <label class="page__task-label">Pay Bills</label>
+          <input type="text" class="task">
+          <button class="page__task-edit">Edit</button>
+          <button class="page__task-delete"><img src="./remove.svg" alt="button"></button>
         </li>
-        <li class="task__edit-mode">
-        <input type="checkbox">
-        <label class="page__task-label">Go Shopping</label>
-        <input type="text" value="Go Shopping" class="page__task-input">
-        <button class="page__task-edit">Save</button>
-        <button class="page__task-delete"><img src="./remove.svg"></button>
+        <li class="list__item">
+          <input type="checkbox">
+          <label class="page__task-label">Go Shopping</label>
+          <input type="text" value="Go Shopping" class="page__task-input">
+          <button class="page__task-edit">Save</button>
+          <button class="page__task-delete"><img src="./remove.svg"></button>
         </li>
       </ul>
       <h3 class="page__content-title">Completed</h3>
-      <ul id="complete-task2">
-        <li><input type="checkbox" checked>
+      <ul class="list" id="complete-task2">
+        <li class="list__item"><input type="checkbox" checked>
           <label class="page__task-label">See the Doctor</label>
           <input type="text" class="page__task-input">
           <button class="page__task-edit">Edit</button>
