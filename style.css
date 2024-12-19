@@ -142,3 +142,8 @@ button.page__task-delete img {
 ul li.list__item-edit label {
     display: none;
 }
+
+/* Edit Task */
+.task.input[type=text] {
+    display: none;
+  }
